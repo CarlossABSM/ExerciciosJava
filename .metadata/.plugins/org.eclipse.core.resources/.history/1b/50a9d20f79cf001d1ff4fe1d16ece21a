@@ -1,0 +1,14 @@
+package helloword;
+
+public class aulaa1 {
+
+	public static void main(String[] args) {
+		
+		int y = 35;
+		
+		int x = 67;
+		
+        System.out.println( x + y);
+	}
+
+}

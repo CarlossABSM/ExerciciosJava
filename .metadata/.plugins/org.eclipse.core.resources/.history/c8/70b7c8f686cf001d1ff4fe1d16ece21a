@@ -1,0 +1,29 @@
+package helloword;
+
+
+public class aulaa1 {
+
+	public static void main(String[] args) {
+	
+		
+		
+	
+		String product1 = "Computer";
+		String product2 = "Office desk";
+		int age = 30;
+		int code = 5290;
+		char gender = 'F';
+		double price1 = 2100.0;
+		double price2 = 650.50;
+		double measure = 53.234567;
+		
+		System.out.println("Produtos");
+		System.out.println(product1 + ", witch Price is  $"+ price1  );
+		System.out.println(product2 + ", witch Price is  $"+ price2  );
+		System.out.println();
+		System.out.println("Record: " + age + " years old, code " + code + " and agender : " + gender );
+		System.out.println();
+		System.out.printf("Measue with eight decimal places: " + "%.8f%n ", measure);
+	}
+	
+}

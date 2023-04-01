@@ -1,0 +1,25 @@
+package helloword;
+
+import java.util.Locale;
+
+public class aulaa1 {
+
+	public static void main(String[] args) {
+		
+		int y = 35;
+		
+		int x = 67;
+		
+		double s = 10.35784;
+		
+        System.out.println( x + y);
+        System.out.println(s);
+        System.out.printf("%.1f%n ",s);
+        System.out.printf("%. 4f%n",s);
+        Locale.setDefault(Locale.US);
+        System.out.printf("%.4f%n",s);
+        System.out.println(" RESULTADO = " + s + "REAIS ");
+	}
+
+	
+}
